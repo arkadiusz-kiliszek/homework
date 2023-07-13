@@ -1,7 +1,7 @@
-package org.example;
+package com.example;
 
-import org.example.config.AppConfig;
-import org.example.service.CalculateAreaService;
+import com.example.service.CalculateAreaService;
+import com.example.config.AppConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

@@ -1,7 +1,7 @@
-package org.example.shape;
+package com.example.shape;
 
 ;
-import org.example.config.condition.RectangleCondition;
+import com.example.config.condition.RectangleCondition;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.stereotype.Component;
 

@@ -1,6 +1,6 @@
-package org.example.shape;
+package com.example.shape;
 
-import org.example.config.condition.DefaultShapeCondition;
+import com.example.config.condition.DefaultShapeCondition;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.stereotype.Component;
 

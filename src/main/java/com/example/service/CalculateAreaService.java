@@ -1,8 +1,8 @@
-package org.example.service;
+package com.example.service;
 
 
+import com.example.shape.Shape;
 import lombok.RequiredArgsConstructor;
-import org.example.shape.Shape;
 import org.springframework.stereotype.Service;
 
 @Service
