@@ -1,14 +1,15 @@
 package com.example.shape;
 
 ;
-import com.example.config.condition.RectangleCondition;
+import com.example.config.condition.DefaultShapeCondition;
+import com.example.config.condition.SquareCondition;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
 
 @Component
-@Conditional(RectangleCondition.class)
+@Conditional(DefaultShapeCondition.class)
 public class Rectangle implements Shape {
     @Override
     public double calculateArea() {
