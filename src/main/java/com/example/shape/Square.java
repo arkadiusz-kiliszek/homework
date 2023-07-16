@@ -1,13 +1,14 @@
 package com.example.shape;
 
 import com.example.config.condition.DefaultShapeCondition;
+import com.example.config.condition.SquareCondition;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
 
 @Component
-@Conditional(DefaultShapeCondition.class)
+@Conditional(SquareCondition.class)
 public class Square implements Shape {
     @Override
     public double calculateArea() {
